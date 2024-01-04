@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.buttons button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.heading1 {
+    margin-bottom: 20px;
+}
+
+.tabel, .tabel2, .tabel3 {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.table1 img {
+    max-width: 100px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.tabledetailes {
+    flex: 1;
+}
+
+.increment, .rate1 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.proceed {
+    background-color: #000;
+    color: white;
+    padding: 20px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 12px;
+    display: block; /* Ensure it's displayed as a block element */
+    margin-top: 20px; /* Add margin to separate it from the above content */
+}
+
+.checkoutdetails, .hey, .proceed-text, .images-with-details {
+    margin-bottom: 20px;
+}
+
+.chekout {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.complete, .thankyou, .recieved, .images-with-details2 {
+    margin-bottom: 20px;
+}
+
+.purchasshistroy {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Add more styles as needed */
